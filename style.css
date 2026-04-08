@@ -1,93 +1,76 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
 body {
-  background: #f8f9fc;
-  color: #333;
+  font-family: Arial;
+  margin: 0;
+  text-align: center;
+  background: #f5f5f5;
 }
 
+/* NAVBAR */
+nav {
+  background: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* HEADER */
 header {
-  text-align: center;
-  padding: 60px 20px;
-  background: white;
-  border-bottom: 1px solid #eee;
+  background: #4c6ef5;
+  color: white;
+  padding: 40px;
 }
 
-header h1 {
-  font-size: 32px;
-}
-
-header p {
-  color: #666;}
-
+/* SECTIONS */
 section {
-  padding: 50px 20px;
-  text-align: center;
+  padding: 30px;
 }
 
-h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
-}
-
-.about p {
-  max-width: 600px;
-  margin: auto;
-  line-height: 1.6;
-  color: #555;
-}
-
-.skills ul {
+/* SKILLS */
+ul {
   list-style: none;
 }
 
-.skills li {
+li {
   display: inline-block;
-  background: #e9ecef;
-  padding: 8px 14px;
-  margin: 6px;
-  border-radius: 5px;
-  transition: 0.3s;
+  background: #ddd;
+  padding: 8px;
+  margin: 5px;
 }
 
-.skills li:hover {
-  background: #4c6ef5;
-  color: white;
-}
-
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
+/* PROJECT CARD */
 .card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px auto;
+  width: 250px;
   background: white;
-  padding: 20px;
-  border-radius: 8px;
-  border: 1px solid #eee;
   transition: 0.3s;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  border-color: #4c6ef5;
+  background: #e0e7ff;
 }
 
-.contact p {
-  color: #555;
+/* BUTTON */
+button {
+  padding: 10px;
+  background: #4c6ef5;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
+button:hover {
+  background: #364fc7;
+}
+
+/* FOOTER */
 footer {
-  text-align: center;
-  padding: 15px;
-  background: white;
-  border-top: 1px solid #eee;
-  color: #777;
+  background: #333;
+  color: white;
+  padding: 10px;
 }
