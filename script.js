@@ -1,4 +1,4 @@
-// SMOOTH SCROLL
+
 document.querySelectorAll("nav a").forEach(link => {
   link.addEventListener("click", function(e) {
     e.preventDefault();
@@ -9,13 +9,10 @@ document.querySelectorAll("nav a").forEach(link => {
     });
   });
 });
-
-// CONTACT BUTTON
 function contactMe() {
   alert("Thank you for visiting my portfolio 😊");
 }
 
-// CARD CLICK EFFECT
 document.querySelectorAll(".card").forEach(card => {
   card.addEventListener("click", function() {
     this.style.background = "#d0ebff";
