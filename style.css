@@ -5,7 +5,6 @@ body {
   background: #f5f5f5;
 }
 
-/* NAVBAR */
 nav {
   background: #333;
   padding: 10px;
@@ -17,19 +16,16 @@ nav a {
   text-decoration: none;
 }
 
-/* HEADER */
 header {
   background: #4c6ef5;
   color: white;
   padding: 40px;
 }
 
-/* SECTIONS */
 section {
   padding: 30px;
 }
 
-/* SKILLS */
 ul {
   list-style: none;
 }
@@ -41,7 +37,6 @@ li {
   margin: 5px;
 }
 
-/* PROJECT CARD */
 .card {
   border: 1px solid #ccc;
   padding: 15px;
@@ -55,7 +50,6 @@ li {
   background: #e0e7ff;
 }
 
-/* BUTTON */
 button {
   padding: 10px;
   background: #4c6ef5;
